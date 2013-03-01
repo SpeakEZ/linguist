@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.files = Dir['lib/**/*']
   s.executables << 'linguist'
 
-  s.add_dependency 'charlock-holmes-bundle-icu', '~> 0.6.9.2'
+  s.add_dependency 'charlock_holmes_bundle_icu', '~> 0.6.9.2'
   s.add_dependency 'escape_utils',    '~> 0.2.3'
   s.add_dependency 'mime-types',      '~> 1.19'
   s.add_dependency 'pygments.rb',     '~> 0.5.2'
