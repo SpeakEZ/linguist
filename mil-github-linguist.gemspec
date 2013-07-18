@@ -1,10 +1,10 @@
 Gem::Specification.new do |s|
-  s.name    = 'geothird-linguist'
-  s.version = '2.6.8'
+  s.name    = 'mil-github-linguist'
+  s.version = '2.8.8'
   s.summary = "GitHub Language detection"
 
   s.authors  = "GitHub"
-  s.homepage = "https://github.com/geothird/linguist"
+  s.homepage = "https://github.com/github/linguist"
 
   s.files = Dir['lib/**/*']
   s.executables << 'linguist'
@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'charlock_holmes_bundle_icu', '~> 0.6.9.2'
   s.add_dependency 'escape_utils',    '~> 0.3.1'
   s.add_dependency 'mime-types',      '~> 1.19'
-  s.add_dependency 'pygments.rb',     '~> 0.4.2'
+  s.add_dependency 'pygments.rb',     '~> 0.5.2'
   s.add_development_dependency 'mocha'
   s.add_development_dependency 'json'
   s.add_development_dependency 'rake'
